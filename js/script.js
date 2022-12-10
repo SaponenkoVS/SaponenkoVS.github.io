@@ -197,7 +197,7 @@ new MenuCard(
     "elite",
     "Menu „Premium” ",
     'W menu „Premium” stosujemy nie tylko piękny design opakowań, ale również wysoką jakość wykonania dań. Czerwone ryby, owoce morza, owoce – menu restauracji bez wyjścia do restauracji!',
-    15,
+    12,
     '.menu .container',
     'menu__item'
 ).render();
