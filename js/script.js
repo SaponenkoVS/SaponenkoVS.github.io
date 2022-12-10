@@ -172,7 +172,7 @@ class MenuCard{
         <div class="menu__item-descr">${this.descr}</div>
         <div class="menu__item-divider"></div>
         <div class="menu__item-price">
-            <div class="menu__item-cost">Цена:</div>
+            <div class="menu__item-cost">cena:</div>
             <div class="menu__item-total"><span>${this.price}</span> euro/day</div>
         </div>
         
@@ -185,8 +185,8 @@ class MenuCard{
 new MenuCard(
     'img/tabs/vegy.jpg',
     "vegy",
-    "Меню 'Фитнес' ",
-    'Меню "Фитнес" - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!',
+    "Menu „Fitness” ",
+    'Menu „Fitness” to nowe podejście do gotowania: więcej świeżych warzyw i owoców. Produkt osób aktywnych i zdrowych. To zupełnie nowy produkt w najlepszej cenie i wysokiej jakości!',
     9,
     '.menu .container',
     'menu__item'
@@ -195,8 +195,8 @@ new MenuCard(
 new MenuCard(
     'img/tabs/elite.jpg',
     "elite",
-    "Меню 'Премиум' ",
-    'В меню “Премиум” мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!',
+    "Menu „Premium” ",
+    'W menu „Premium” stosujemy nie tylko piękny design opakowań, ale również wysoką jakość wykonania dań. Czerwone ryby, owoce morza, owoce – menu restauracji bez wyjścia do restauracji!',
     15,
     '.menu .container',
     'menu__item'
@@ -206,9 +206,9 @@ new MenuCard(
 new MenuCard(
     'img/tabs/post.jpg',
     "post",
-    "Меню 'Постное'",
-    'Меню “Постное” - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения, молоко из миндаля, овса, кокоса или гречки, правильное количество белков за счет тофу и импортных вегетарианских стейков.',
-    7,
+    "Menu „Wielki Post”",
+    'Wielkopostne menu to starannie dobrany wybór składników: żadnych produktów pochodzenia zwierzęcego, mleka z migdałów, owsa, kokosa czy kaszy gryczanej, tylko odpowiednia ilość białka z tofu i steków z importowanych warzyw.',
+     7,
     '.menu .container',
     'menu__item'
 ).render();
